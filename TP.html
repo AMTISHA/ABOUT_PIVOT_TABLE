@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Steps</title>
+	<style>
+	div{ font-size: large;
+	text-align: left;}
+	body{
+	font-size:30px;
+	background-image:url("https://i.pinimg.com/564x/9a/00/7a/9a007a58ebc7a3fbf6612ef2f9a1d3b8.jpg");
+   background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+	}
+	.navbar {
+  background-color: lightblue;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: lightblue;
+}
+
+
+.navbar a.active {
+  background-color:lightblue;
+  color: black; 
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+	</style>
+	
+</head>
+<body>
+<h1 style="color:darkblue;text-align:center";>Now lets learn how to creat a Pivot table</h1>
+<b>In this page we will learn how to make a pivot table of your data.</b>
+<div>
+<dl>
+<dt> <b>Step 1. Enter your data into a range of rows and columns.</b></dt>
+<dd>To create this table, simply enter your values into a set of rows and columns</dd>
+<dd>Here, I have a list of people, their business type, and their monthy income. With a pivot table, I could find out several pieces of information. I could find out how many people are doing which type of business and their monthly income.</dd>
+<br>
+<img src="pivot 1.jpg" alt="pivot table step1 " class="center">
+<br>
+<dt> <b>Step 2. Insert your pivot table..</b></dt>
+<dd>Inserting your pivot table is actually the easiest part.
+<ul><li>Highlight your data.</li>
+<li>Go to Insert in the top menu.</li>
+<li>Click Pivot table.</li>
+</ul> </dd>
+<dt>It will also ask you where you want to place your pivot table. I recommend using a new worksheet.</dt> 
+<dt>Then click<b> OK</b>.</dt>
+<dt>You will then get an empty result</dt>
+<img src="pivot 2.jpg" alt="pivot table step2" style="width:700px;height:350px;" class="center">
+<br>
+<dt><b>Step 3. Edit your pivot table fields..</b></dt>
+<dd>After you click OK, you will see a pane for you to edit your pivot table fields
+In this pane, you can take any of your existing table fields (for my example, it would be name,income,type,etc), and turn them into one of four fields:
+<ol>
+<li><b>Filter</b></li>
+This turns your chosen field into a filter at the top, by which you can segment data. For instance, below, I’ve chosen to filter my pivot table by Business type. It works just like a normal filter.
+<li><b>Column</b></li>
+This turns your chosen field into vertical columns in your pivot table.
+<li><b>Row</b></li>
+This turns your chosen field into horizontal rows in your pivot table.
+<li><b>Value</b></li>
+This turns your chosen field into the values that populate the table, giving you data to summarize or analyze.
+Values can be averaged, summed, counted, and more
+</ol></dd>
+<img src="pivot 3.jpg" alt="pivot table step3" style="width:350px;height:340px;" class="center">
+
+<dt><b>Step 4: Analyze your pivot table.</b></dt>
+<dd>Once you have your pivot table, it’s time to answer the question related to the data.EG- What information were you trying to learn by manipulating the data?
+With the example, I wanted to know how many people are doing of which type with their monthly salary.
+<br>
+I therefore made the columns Business type, the rows income, and the values Name .
+</dd>
+<br>
+<dt>Values can be summed, averaged, or otherwise calculated if they’re numbers, but the Name field is text. The table automatically set it to Count, which meant it counted the number of names matching each category.</dt>
+<br>
+<img src="pivot 4.jpg" alt="pivot table step4" style="width:450px;height:400px;" class="center">
+
+<dt><b>At last</b>Customize the pivot table. You can further customize your pivot table by adjusting the layout, applying filters, sorting, and formatting the data as needed.</dt>
+</dl>
+</div>
+<div class="navbar">
+  <a href="INDEX.html" class="active">Home</a>
+  <a href="Tishaproject.html">Introduction</a>
+  <a href="excel.html">Excel links</a>
+</div>
+</body>
+</html>
